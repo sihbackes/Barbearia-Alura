@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 html, body, div, span, applet, object, iframe,
 h1,  h4, h5, h6, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -117,3 +121,4 @@ footer {
     font-size: 13px;
     margin-top: 20px;
 }
+
