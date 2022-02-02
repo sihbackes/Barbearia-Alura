@@ -128,7 +128,7 @@ font-weight: bold;
     width: 60%;
     opacity: 1;
     transition: 400ms;
-    box-shadow: 10px 10px 5px 20px #000000;
+    box-shadow: 10px 10px 10px 10px #000000;
 }
 .imagemBeneficios:hover {
     opacity: 0.3;
@@ -147,6 +147,22 @@ footer {
         color: #ffffff;
         font-size: 13px;
         margin-top: 20px;
+    }
+
+
+    @media screen and (max-width:480px) {
+        .caixa, .principal, .conteudoBeneficios, .mapaConteudo, .video{
+            width: auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        nav {
+            position: static;
+        }
+        .listaBeneficios, .imagemBeneficios{
+            width: 100%;
+        }
     }
     
     
